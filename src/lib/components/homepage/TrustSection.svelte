@@ -7,7 +7,7 @@
 	];
 </script>
 
-<section class="bg-white text-text-base py-16">
+<section class="bg-white text-text-base py-4">
 	<div class="max-w-6xl mx-auto px-4 text-center space-y-8">
 
         <h2 class="text-2xl md:text-3xl font-bold text-primary">

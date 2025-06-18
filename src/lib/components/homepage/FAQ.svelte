@@ -11,7 +11,7 @@
 		},
 		{
 			q: 'What areas do you cover?',
-			a: 'We serve all of London, Birmingham, and surrounding regions.'
+			a: 'We serve all of London, Birmingham, and surrounding regions.' // TODO: update location
 		},
 		{
 			q: 'Can I pay with credit or debit card?',

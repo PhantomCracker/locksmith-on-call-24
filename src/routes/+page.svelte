@@ -3,12 +3,17 @@
     import TrustSection from '$lib/components/homepage/TrustSection.svelte';
 	import UrgencyInfo from '$lib/components/homepage/UrgencyInfo.svelte';
 	import Services from '$lib/components/homepage/Services.svelte';
+    import Testimonials from '$lib/components/homepage/Testimonials.svelte';
 	import WhyChooseUs from '$lib/components/homepage/WhyChooseUs.svelte';
 	import FAQ from '$lib/components/homepage/FAQ.svelte';
 	import EmergencyCTA from '$lib/components/homepage/EmergencyCTA.svelte';
 </script>
 
 <svelte:head>
+    <title>Emergency Locksmith Near You | 24/7 Fast Help in London</title>
+    <!-- TODO: update location -->
+	<meta name="description" content="Locked out? We’re available 24/7 for emergency locksmith services in London, Birmingham and nearby areas. Fast, reliable, no call-out fee." />
+
 	<script type="application/ld+json">
 		{JSON.stringify({
 			"@context": "https://schema.org",
@@ -79,6 +84,7 @@
 <TrustSection />
 <UrgencyInfo />
 <Services />
+<Testimonials />
 <WhyChooseUs />
 <FAQ />
 <EmergencyCTA />

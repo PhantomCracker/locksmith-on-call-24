@@ -4,6 +4,7 @@
 		<div>
 			<h2 class="text-3xl font-bold mb-4 text-primary">Why Choose Locksmith on Call?</h2>
 			<ul class="space-y-4 text-lg">
+                <!-- TODO: Update location -->
 				<li>✅ Fast Arrival Across London</li>
 				<li>✅ 24/7 Emergency Availability</li>
 				<li>✅ Fully Licensed and Insured</li>

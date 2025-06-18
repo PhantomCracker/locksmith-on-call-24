@@ -1,19 +1,41 @@
-<section class="py-16 bg-background-white text-text-base">
+<script lang="ts">
+	const services = [
+		{
+			title: 'Emergency Lockout (Home & Office)',
+			description: 'Locked out of your home or business? We provide fast, non-destructive entry 24/7.'
+		},
+		{
+			title: 'Lock Replacement & Installation',
+			description: 'Secure your home or office with high-quality British Standard locks.'
+		},
+		{
+			title: 'UPVC Door & Lock Repairs',
+			description: 'We repair faulty mechanisms and broken locks on residential and commercial doors.'
+		},
+        {
+			title: 'Safe Unlocking & Installation',
+			description: 'We open locked safes and provide secure safe installations for home or office.'
+		},
+		{
+			title: 'Security Upgrades',
+			description: 'We install anti-snap cylinders, high-security deadbolts, and insurance-approved locks.'
+		}
+	];
+</script>
+
+<section class="bg-background-white text-text-base py-16">
 	<div class="max-w-6xl mx-auto px-4">
-		<h2 class="text-3xl font-bold text-center mb-10">Our Locksmith Services</h2>
-		<div class="grid md:grid-cols-3 gap-8 text-center">
-			<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-				<h3 class="font-semibold text-xl mb-2 text-primary">Emergency Lockout</h3>
-				<p>24/7 quick response for home and office lockouts.</p>
-			</div>
-			<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-				<h3 class="font-semibold text-xl mb-2 text-primary">Lock Replacement</h3>
-				<p>Secure your property with new, high-quality locks.</p>
-			</div>
-			<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-				<h3 class="font-semibold text-xl mb-2 text-primary">Door & Lock Repair</h3>
-				<p>We repair all types of locks and damaged doors.</p>
-			</div>
+		<h2 class="text-3xl font-bold text-center mb-10 text-primary">Our Locksmith Services</h2>
+		<p class="text-center max-w-2xl mx-auto mb-6 text-sm text-gray-500 italic">
+			<strong>We do not offer car unlocking or auto locksmith services.</strong>
+		</p>
+		<div class="grid md:grid-cols-2 gap-8 mt-8">
+			{#each services as service}
+				<div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+					<h3 class="font-semibold text-xl text-primary mb-2">{service.title}</h3>
+					<p>{service.description}</p>
+				</div>
+			{/each}
 		</div>
 	</div>
 </section>
