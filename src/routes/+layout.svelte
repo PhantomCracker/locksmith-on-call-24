@@ -16,9 +16,9 @@
 			"telephone": "03307890914",
 			"address": {
 				"@type": "PostalAddress",
-				"streetAddress": "123 High Street",
+				"streetAddress": "37 Tavistock Pl",
 				"addressLocality": "London",
-				"postalCode": "W1A 1AA",
+				"postalCode": "WC1H 9SE",
 				"addressCountry": "UK"
 			},
 			"openingHoursSpecification": [{
@@ -116,6 +116,7 @@
 				<a href="/" class="hover:text-primary transition">Home</a>
 				<a href="/services" class="hover:text-primary transition">Services</a>
 				<a href="/about" class="hover:text-primary transition">About</a>
+				<a href="/areas-covered" class="hover:text-primary transition">Covered areas</a>
 				<a href="tel:0123456789" class="bg-accent text-white px-4 py-2 rounded hover:opacity-90 transition flex items-center gap-1">
 					<span class="material-symbols-outlined">call</span>
 					Call Now
@@ -134,6 +135,7 @@
 				<a href="/" class="hover:text-primary">Home</a>
 				<a href="/services" class="hover:text-primary">Services</a>
 				<a href="/about" class="hover:text-primary">About</a>
+				<a href="/areas-covered" class="hover:text-primary">Covered areas</a>
 				<a href="/contact" class="hover:text-primary">Contact</a>
 				<a href="tel:0123456789" class="bg-accent text-white px-4 py-2 rounded text-center hover:opacity-90">
 					📞 Call Now
