@@ -106,9 +106,10 @@
 			<!-- Logo -->
 			 <!-- TODO: add logo -->
 			<a href="/" class="flex items-center gap-2 font-bold text-lg text-primary">
-				<span class="material-symbols-outlined text-2xl">lock</span>
+				<img src="/logo.png" alt="Locksmith on Call Logo" class="h-8 w-auto" />
 				<span>Locksmith on Call</span>
 			</a>
+
 
 			<!-- Desktop Nav -->
 			<nav class="hidden md:flex gap-6 items-center">
