@@ -1,8 +1,13 @@
 @import 'tailwindcss';
+@import "@fontsource/inter/index.css";
 
 @theme {
     --color-background-white: #f9f9f9;
     --color-text-base: #2c2c2c;
     --color-accent: #ff6b00;
     --color-primary: #004aad;
+}
+
+:root {
+    font-family: 'Inter', sans-serif;
 }

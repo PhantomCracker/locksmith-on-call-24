@@ -114,7 +114,6 @@
 				<a href="/" class="hover:text-primary transition">Home</a>
 				<a href="/services" class="hover:text-primary transition">Services</a>
 				<a href="/about" class="hover:text-primary transition">About</a>
-				<a href="/contact" class="hover:text-primary transition">Contact</a>
 				<a href="tel:0123456789" class="bg-accent text-white px-4 py-2 rounded hover:opacity-90 transition flex items-center gap-1">
 					<span class="material-symbols-outlined">call</span>
 					Call Now

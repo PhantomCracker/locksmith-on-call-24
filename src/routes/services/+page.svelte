@@ -95,7 +95,6 @@
 			{/each}
 		</div>
 
-		<!-- ❌ What We Don't Do -->
 		<div class="mt-12 bg-[#fff7f4] border border-accent text-text-base px-6 py-6 mt-8 mb-4 rounded">
 			<h3 class="text-lg font-semibold text-accent mb-2">Please note:</h3>
 			<ul class="list-disc pl-5 text-sm space-y-1">
