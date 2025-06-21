@@ -1,5 +1,9 @@
 <script lang="ts">
-    // TODO: update the data based on location
+	import { formatFAQCoverage } from '$lib/utils/textFormatters';
+
+	export let city: string;
+	export let areas: string[];
+
 	let faqs = [
 		{
 			q: 'How fast can you arrive?',
@@ -11,7 +15,7 @@
 		},
 		{
 			q: 'What areas do you cover?',
-			a: 'We serve all of London, Birmingham, and surrounding regions.' // TODO: update location
+			a: formatFAQCoverage(city, areas)
 		},
 		{
 			q: 'Can I pay with credit or debit card?',

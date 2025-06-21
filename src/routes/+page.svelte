@@ -10,9 +10,8 @@
 </script>
 
 <svelte:head>
-    <title>Emergency Locksmith Near You | 24/7 Fast Help in London</title>
-    <!-- TODO: update location -->
-	<meta name="description" content="Locked out? We’re available 24/7 for emergency locksmith services in London, Birmingham and nearby areas. Fast, reliable, no call-out fee." />
+    <title>Emergency Locksmith Near You | 24/7 Fast Help in the entire United Kingdom</title>
+	<meta name="description" content="Locked out? We’re available 24/7 for emergency locksmith services in United Kingdom and nearby areas. Fast, reliable, no call-out fee." />
 
 	<script type="application/ld+json">
 		{JSON.stringify({
@@ -40,7 +39,7 @@
 					"name": "What areas do you cover?",
 					"acceptedAnswer": {
 						"@type": "Answer",
-						"text": "We cover London, Birmingham, and the surrounding areas." // TODO: update the data based on location
+						"text": "We cover the entire United Kingdoms and the surrounding areas."
 					}
 				},
 				{

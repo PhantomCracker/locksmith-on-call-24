@@ -25,7 +25,6 @@
 
 <svelte:head>
 	<title>About Locksmith on Call | Local, Trusted Locksmith Since 2008 | Local Locksmith Near You</title>
-    <!-- TODO: update location -->
 	<meta name="description" content="Get to know Locksmith on Call – 24/7 locksmith service helping homes and businesses across United Kingdom and surrounding areas since 2008." />
 </svelte:head>
 

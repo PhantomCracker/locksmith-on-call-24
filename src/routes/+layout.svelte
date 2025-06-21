@@ -13,8 +13,8 @@
 			"image": "https://locksmithoncall24.co.uk/logo.png", // TODO: replace with actual logo
 			"@id": "https://locksmithoncall24.co.uk/",
 			"url": "https://locksmithoncall24.co.uk/",
-			"telephone": "+44123456789", // TODO: update phone
-			"address": { // TODO: update address
+			"telephone": "03307890914",
+			"address": {
 				"@type": "PostalAddress",
 				"streetAddress": "123 High Street",
 				"addressLocality": "London",
@@ -104,6 +104,7 @@
 	<header class="bg-background-white shadow-md sticky top-0 z-50">
 		<div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
 			<!-- Logo -->
+			 <!-- TODO: add logo -->
 			<a href="/" class="flex items-center gap-2 font-bold text-lg text-primary">
 				<span class="material-symbols-outlined text-2xl">lock</span>
 				<span>Locksmith on Call</span>
@@ -150,11 +151,8 @@
 		<div class="max-w-7xl mx-auto px-4 grid grid-cols-1 sm:grid-cols-2 gap-4 text-sm">
 			<div>
 				<h2 class="font-semibold mb-2">Contact Us</h2>
-				<!-- TODO: update address -->
-				<p>📍 Serving Greater London</p>
-				<!-- TODO: update phone -->
-				<p>📞 <a href="tel:0123456789" class="text-accent hover:underline">0123 456 789</a></p>
-				<!-- TODO: update email -->
+				<p>📍 Serving the entire United Kingdom</p>
+				<p>📞 <a href="tel:03307890914" class="text-accent hover:underline">0330 789 0914</a></p>
 				<p>✉️ support@locksmithoncall.co.uk</p>
 			</div>
 			<div>
