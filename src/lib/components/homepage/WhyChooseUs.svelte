@@ -6,7 +6,7 @@
 
 <section class="py-16 bg-white text-text-base">
 	<div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-		<img src="/images/why-choose-us.webp" alt="Trusted Locksmith Team" class="rounded shadow" />
+		<img src="/images/emergency-locksmith-near-you.webp" alt="Trusted Locksmith Near You" class="rounded shadow" />
 		<div>
 			<h2 class="text-3xl font-bold mb-4 text-primary">Why Choose Locksmith on Call?</h2>
 			<ul class="space-y-4 text-lg">

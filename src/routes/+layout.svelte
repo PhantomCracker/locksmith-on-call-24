@@ -5,6 +5,9 @@
 </script>
 
 <svelte:head>
+	<title>Emergency Locksmith Near You</title>
+	<meta name="description" content="Locksmith on Call offers 24/7 emergency locksmith services with no call-out fees. Fast, reliable & local." />
+
 	<script type="application/ld+json">
 		{JSON.stringify({
 			"@context": "https://schema.org",
@@ -106,7 +109,7 @@
 			<!-- Logo -->
 			 <!-- TODO: add logo -->
 			<a href="/" class="flex items-center gap-2 font-bold text-lg text-primary">
-				<img src="/logo.png" alt="Locksmith on Call Logo" class="h-8 w-auto" />
+				<img src="/logo.png" alt="Locksmith on Call" class="h-8 w-auto" />
 				<span>Locksmith on Call</span>
 			</a>
 

@@ -1,7 +1,7 @@
 <script lang="ts">
     let items = [
-        { text: 'MLA Certified Locksmiths', img: '/images/mla.webp' },
-		{ text: 'DBS Checked Technicians', img: '/images/dbs.webp' },
+        { text: 'MLA Certified Locksmiths', img: '/images/master-locksmiths-association.webp' },
+		{ text: 'DBS Checked Technicians', img: '/images/disclosure-and-barring-service.webp' },
 		{ text: 'Fully Insured & Licensed', img: '/images/insured.webp' },
 		{ text: '⭐⭐⭐⭐⭐ Rated 5.0 on Google Reviews' }
 	];
