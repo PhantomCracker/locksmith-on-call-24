@@ -41,7 +41,10 @@
 			"review": [
 				{
 					"@type": "Review",
-					"author": "Andre T.",
+					"author": {
+						"@type": "Person",
+      					"name": "Andre T."
+					},
 					"datePublished": "2025-06-12",
 					"reviewBody": "We had a burglary scare — Locksmith on Call upgraded all our locks the same evening. Very reassuring.",
 					"name": "Quick, professional and friendly",
@@ -52,7 +55,10 @@
 				},
 				{
 					"@type": "Review",
-					"author": "Ibrahim Y.",
+					"author": {
+						"@type": "Person",
+      					"name": "Ibrahim Y."
+					},
 					"datePublished": "2025-06-02",
 					"reviewBody": "Even on a Sunday afternoon, they showed up fast and fixed our broken back door lock cleanly.",
 					"name": "Excellent lock replacement",
@@ -63,7 +69,10 @@
 				},
 				{
 					"@type": "Review",
-					"author": "Becky D.",
+					"author": {
+						"@type": "Person",
+      					"name": "Becky D."
+					},
 					"datePublished": "2025-05-08",
 					"reviewBody": "Needed all my house locks changed after losing keys. Super quick, no pressure, and transparent pricing.",
 					"name": "Reliable and transparent pricing",
