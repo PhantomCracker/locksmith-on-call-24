@@ -12,6 +12,7 @@
 <svelte:head>
     <title>Emergency Locksmith Near You | 24/7 Fast Help in the entire United Kingdom</title>
 	<meta name="description" content="Locked out? We’re available 24/7 for emergency locksmith services in United Kingdom and nearby areas. Fast, reliable, no call-out fee." />
+	<meta name="google-site-verification" content="EYEqv4P_G2aEWDGjuCGggJcqf7B_zxGLjbmvDlYMv5Y" />
 
 	<script type="application/ld+json">
 		{JSON.stringify({
