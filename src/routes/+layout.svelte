@@ -41,9 +41,9 @@
 			"review": [
 				{
 					"@type": "Review",
-					"author": "John Smith",
-					"datePublished": "2024-09-12",
-					"reviewBody": "Arrived in 20 minutes and unlocked my door without damage. Highly recommended!",
+					"author": "Andre T.",
+					"datePublished": "2025-06-12",
+					"reviewBody": "We had a burglary scare — Locksmith on Call upgraded all our locks the same evening. Very reassuring.",
 					"name": "Quick, professional and friendly",
 					"reviewRating": {
 						"@type": "Rating",
@@ -52,9 +52,9 @@
 				},
 				{
 					"@type": "Review",
-					"author": "Emily R.",
-					"datePublished": "2024-10-02",
-					"reviewBody": "They replaced our locks with British Standard ones. Great service and fair price.",
+					"author": "Ibrahim Y.",
+					"datePublished": "2025-06-02",
+					"reviewBody": "Even on a Sunday afternoon, they showed up fast and fixed our broken back door lock cleanly.",
 					"name": "Excellent lock replacement",
 					"reviewRating": {
 						"@type": "Rating",
@@ -63,9 +63,9 @@
 				},
 				{
 					"@type": "Review",
-					"author": "Tariq A.",
-					"datePublished": "2025-01-08",
-					"reviewBody": "Emergency call-out at 2am, no hassle, no extra fees. Would use again.",
+					"author": "Becky D.",
+					"datePublished": "2025-05-08",
+					"reviewBody": "Needed all my house locks changed after losing keys. Super quick, no pressure, and transparent pricing.",
 					"name": "Reliable and transparent pricing",
 					"reviewRating": {
 						"@type": "Rating",
