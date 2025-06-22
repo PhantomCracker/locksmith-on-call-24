@@ -16,7 +16,7 @@
     <p class="mb-6 opacity-80">
         {status === 404
         ? "The page you're looking for doesn't exist or has been moved."
-        : error.message}
+        : error}
     </p>
     <a href="/" class="bg-[var(--color-primary)] text-white px-6 py-3 rounded hover:bg-blue-800 transition">
         🔙 Back to Home
