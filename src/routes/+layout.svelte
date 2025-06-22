@@ -13,7 +13,7 @@
 			"@context": "https://schema.org",
 			"@type": "LocalBusiness",
 			"name": "Locksmith on Call",
-			"image": "https://locksmithoncall24.co.uk/logo.png", // TODO: replace with actual logo
+			"image": "https://locksmithoncall24.co.uk/logo.png",
 			"@id": "https://locksmithoncall24.co.uk/",
 			"url": "https://locksmithoncall24.co.uk/",
 			"telephone": "03307890914",
@@ -107,7 +107,6 @@
 	<header class="bg-background-white shadow-md sticky top-0 z-50">
 		<div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
 			<!-- Logo -->
-			 <!-- TODO: add logo -->
 			<a href="/" class="flex items-center gap-2 font-bold text-lg text-primary">
 				<img src="/logo.png" alt="Locksmith on Call" class="h-8 w-auto" />
 				<span>Locksmith on Call</span>

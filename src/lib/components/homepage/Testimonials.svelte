@@ -64,7 +64,7 @@
 
 	const autoSlide = setInterval(() => {
 		next();
-	}, 7000);
+	}, 15000);
 
 	import { onDestroy } from 'svelte';
 	onDestroy(() => clearInterval(autoSlide));
