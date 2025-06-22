@@ -9,7 +9,7 @@
 	<meta name="description" content="Locksmith on Call offers 24/7 emergency locksmith services with no call-out fees. Fast, reliable & local." />
 
 	<script type="application/ld+json">
-		{JSON.stringify({
+		{
 			"@context": "https://schema.org",
 			"@type": "LocalBusiness",
 			"name": "Locksmith on Call",
@@ -96,7 +96,7 @@
 					}
 				}
 			]
-		})}
+		}
 	</script>
 </svelte:head>
 

@@ -15,7 +15,7 @@
 	<meta name="google-site-verification" content="EYEqv4P_G2aEWDGjuCGggJcqf7B_zxGLjbmvDlYMv5Y" />
 
 	<script type="application/ld+json">
-		{JSON.stringify({
+		{
 			"@context": "https://schema.org",
 			"@type": "FAQPage",
 			"mainEntity": [
@@ -76,7 +76,7 @@
 					}
 				}
 			]
-		})}
+		}
 	</script>
 </svelte:head>
 
