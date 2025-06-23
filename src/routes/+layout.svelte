@@ -7,6 +7,49 @@
 <svelte:head>
 	<title>Emergency Locksmith Near You</title>
 	<meta name="description" content="Locksmith on Call offers 24/7 emergency locksmith services with no call-out fees. Fast, reliable & local." />
+	<link rel="preload" as="image" href="/logo.png" />
+	<link
+		rel="preload"
+		href="/fonts/inter-latin-500-normal.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin="anonymous"
+	/>
+	<link
+		rel="preload"
+		href="/fonts/inter-latin-500-italic.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin="anonymous"
+	/>
+	<link
+		rel="preload"
+		href="/fonts/inter-latin-600-normal.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin="anonymous"
+	/>
+	<link
+		rel="preload"
+		href="/fonts/inter-latin-600-italic.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin="anonymous"
+	/>
+	<link
+		rel="preload"
+		href="/fonts/inter-latin-700-normal.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin="anonymous"
+	/>
+	<link
+		rel="preload"
+		href="/fonts/inter-latin-700-italic.woff2"
+		as="font"
+		type="font/woff2"
+		crossorigin="anonymous"
+	/>
 
 	<script type="application/ld+json">
 		{
