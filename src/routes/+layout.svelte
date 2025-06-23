@@ -9,7 +9,7 @@
 	<meta name="description" content="Locksmith on Call offers 24/7 emergency locksmith services with no call-out fees. Fast, reliable & local." />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-	<link rel="preload" as="image" href="/logo.png" />
+	<link rel="preload" as="image" href="/logo.webp" />
 	<link
 		rel="preload"
 		href="/fonts/inter-latin-500-normal.woff2"
@@ -58,7 +58,7 @@
 			"@context": "https://schema.org",
 			"@type": "LocalBusiness",
 			"name": "Locksmith on Call",
-			"image": "https://locksmithoncall24.co.uk/logo.png",
+			"image": "https://locksmithoncall24.co.uk/logo.webp",
 			"@id": "https://locksmithoncall24.co.uk/",
 			"url": "https://locksmithoncall24.co.uk/",
 			"telephone": "03307890914",
@@ -162,7 +162,7 @@
 		<div class="max-w-7xl mx-auto px-4 py-3 flex justify-between items-center">
 			<!-- Logo -->
 			<a href="/" class="flex items-center gap-2 font-bold text-lg text-primary">
-				<img src="/logo.png" alt="Locksmith on Call" class="h-8 w-auto" />
+				<img src="/logo.webp" alt="Locksmith on Call" class="h-8 w-auto" />
 				<span>Locksmith on Call</span>
 			</a>
 

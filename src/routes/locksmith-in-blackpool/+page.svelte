@@ -22,7 +22,7 @@
 			"@context": "https://schema.org",
 			"@type": "LocalBusiness",
 			"name": "Locksmith on Call",
-			"image": "https://locksmithoncall.co.uk/logo.png",
+			"image": "https://locksmithoncall.co.uk/logo.webp",
 			"@id": `https://locksmithoncall.co.uk/locksmith-in-${city.toLowerCase()}`,
 			"url": `https://locksmithoncall.co.uk/locksmith-in-${city.toLowerCase()}`,
 			"telephone": "03307890914",
