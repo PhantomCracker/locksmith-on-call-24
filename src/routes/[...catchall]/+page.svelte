@@ -1,7 +1,3 @@
-<script>
-	export let params;
-</script>
-
 <svelte:head>
 	<title>Page Not Found – Locksmith on Call</title>
 	<meta name="robots" content="noindex" />
