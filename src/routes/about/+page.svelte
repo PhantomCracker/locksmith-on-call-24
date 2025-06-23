@@ -32,7 +32,21 @@
 	<div class="max-w-4xl mx-auto px-4">
 		<h1 class="text-4xl font-bold text-primary mb-4 text-center">About Locksmith on Call</h1>
 		<div class="flex flex-col md:flex-row items-center gap-8 mt-8">
-			<img src="/images/locksmith-on-call-founder.webp" loading="lazy" alt="Emergency local locksmith near you" class="w-full md:w-1/2 rounded shadow border" />
+			<img
+				src="/images/locksmith-on-call-founder-768.webp"
+				srcset="
+					/images/locksmith-on-call-founder-480.webp 480w,
+					/images/locksmith-on-call-founder-768.webp 768w,
+					/images/locksmith-on-call-founder.webp 1024w
+				"
+				sizes="(max-width: 768px) 100vw, 50vw"
+				alt="Emergency local locksmith near you"
+				loading="lazy"
+				width="768"
+				height="512"
+				class="w-full md:w-1/2 rounded shadow border"
+			/>
+
 			<div>
 				<p class="text-sm leading-relaxed">
                     Back in 2008, Locksmith on Call started with just a toolbox, an old van and a commitment to helping people out of stressful situations with speed and respect.

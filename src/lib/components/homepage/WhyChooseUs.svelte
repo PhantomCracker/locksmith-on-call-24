@@ -6,7 +6,20 @@
 
 <section class="py-16 bg-white text-text-base">
 	<div class="max-w-6xl mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
-		<img src="/images/emergency-locksmith-near-you.webp" loading="lazy" alt="Trusted Locksmith Near You" class="rounded shadow" />
+		<img
+			src="/images/emergency-locksmith-near-you-640.webp"
+			srcset="
+				/images/emergency-locksmith-near-you-480.webp 480w,
+				/images/emergency-locksmith-near-you-640.webp 640w,
+				/images/emergency-locksmith-near-you.webp 1024w
+			"
+			sizes="(max-width: 640px) 100vw, 50vw"
+			alt="Trusted Locksmith Near You"
+			loading="lazy"
+			width="640"
+			height="360"
+			class="rounded shadow"
+		/>
 		<div>
 			<h2 class="text-3xl font-bold mb-4 text-primary">Why Choose Locksmith on Call?</h2>
 			<ul class="space-y-4 text-lg">
