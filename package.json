@@ -35,6 +35,7 @@
 		"vite": "^6.2.6"
 	},
 	"dependencies": {
-		"@fontsource/inter": "^5.2.6"
+		"@fontsource/inter": "^5.2.6",
+		"vite-plugin-beasties": "^0.3.4"
 	}
 }
