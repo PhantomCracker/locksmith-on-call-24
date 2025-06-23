@@ -75,8 +75,8 @@
 
 		<div class="mt-12 text-center">
 			<p class="text-lg font-medium">We’re here when you need us — any day, any time.</p>
-			<a href="tel:+441234567890" class="inline-block mt-4 bg-accent text-white px-6 py-3 rounded hover:opacity-90 transition font-semibold">
-				📞 Call Now: 0123 456 789
+			<a href="tel:03307890914" class="inline-block mt-4 bg-accent text-white px-6 py-3 rounded hover:opacity-90 transition font-semibold">
+				📞 Call Now: 0330 789 0914
 			</a>
 		</div>
 	</div>
