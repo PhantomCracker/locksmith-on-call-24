@@ -9,6 +9,9 @@
 	<meta name="description" content="Locksmith on Call offers 24/7 emergency locksmith services with no call-out fees. Fast, reliable & local." />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
+	<!-- Cookie banner -->
+	<script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="f92bd9ec-c641-4ae7-b0ae-e46b4223a2d7" type="text/javascript" async></script>
+	
 	<!-- Google Tag Manager -->
 	<script>
 		(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
