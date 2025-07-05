@@ -34,6 +34,24 @@
 		});
 	</script>
 
+	<!-- Event snippet for ads_click_phone_mobile conversion page
+	In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+	<script>
+		function gtag_report_conversion(url) {
+			var callback = function () {
+				if (typeof(url) != 'undefined') {
+				window.location = url;
+				}
+			};
+			gtag('event', 'conversion', {
+				'send_to': 'AW-16989497335/DTjqCJ6wo-oaEPfPnKU_',
+				'event_callback': callback
+			});
+			return false;
+		}
+	</script>
+
+
 	<!-- End Google Tag Manager -->
 
 	<link rel="preload" as="image" href="/logo.webp" />
