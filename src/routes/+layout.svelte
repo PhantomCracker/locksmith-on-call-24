@@ -16,13 +16,24 @@
 		j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-KRWFHND7');
+	</script>
+	
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16989497335"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
 		gtag('config', 'AW-16989497335');
 	</script>
+
 	<script>
-		gtag('config', 'AW-16989497335/gstbCLOI_-gaEPfPnKU_', {
+		gtag('config', 'AW-16989497335/Lpn2COfml-oaEPfPnKU_', {
 			'phone_conversion_number': '0330 789 0914'
 		});
-		</script>
+	</script>
+
 	<!-- End Google Tag Manager -->
 
 	<link rel="preload" as="image" href="/logo.webp" />
