@@ -5,6 +5,37 @@
 		<link rel="icon" href="/logo.webp" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		%sveltekit.head%
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16989497335"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+			gtag('config', 'AW-16989497335');
+		</script>
+
+		<script>
+			gtag('config', 'AW-16989497335/Lpn2COfml-oaEPfPnKU_', {
+				'phone_conversion_number': '0330 789 0914'
+			});
+		</script>
+
+		<!-- Event snippet for ads_click_phone_mobile conversion page
+		In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+		<script>
+			function gtag_report_conversion(url) {
+				var callback = function () {
+					if (typeof(url) != 'undefined') {
+					window.location = url;
+					}
+				};
+				gtag('event', 'conversion', {
+					'send_to': 'AW-16989497335/DTjqCJ6wo-oaEPfPnKU_',
+					'event_callback': callback
+				});
+				return false;
+			}
+		</script>
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<!-- Google Tag Manager (noscript) -->

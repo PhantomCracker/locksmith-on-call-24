@@ -108,7 +108,11 @@
 		<!-- CTA -->
 		<div class="mt-12 text-center">
 			<p class="mb-4 font-medium text-lg">Need help right now?</p>
-			<a href="tel:03307890914" class="inline-block bg-accent text-white px-6 py-3 rounded hover:opacity-90 transition font-semibold">
+			<a href="tel:03307890914" class="inline-block bg-accent text-white px-6 py-3 rounded hover:opacity-90 transition font-semibold"
+                on:click={(e) => {
+                e.preventDefault();
+                gtag_report_conversion('tel:03307890914');
+            }}>
 				📞 Call Now: 0330 789 0914
 			</a>
 		</div>

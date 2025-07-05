@@ -17,41 +17,6 @@
 		'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 		})(window,document,'script','dataLayer','GTM-KRWFHND7');
 	</script>
-	
-	<!-- Google tag (gtag.js) -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=AW-16989497335"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
-		function gtag(){dataLayer.push(arguments);}
-		gtag('js', new Date());
-
-		gtag('config', 'AW-16989497335');
-	</script>
-
-	<script>
-		gtag('config', 'AW-16989497335/Lpn2COfml-oaEPfPnKU_', {
-			'phone_conversion_number': '0330 789 0914'
-		});
-	</script>
-
-	<!-- Event snippet for ads_click_phone_mobile conversion page
-	In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-	<script>
-		function gtag_report_conversion(url) {
-			var callback = function () {
-				if (typeof(url) != 'undefined') {
-				window.location = url;
-				}
-			};
-			gtag('event', 'conversion', {
-				'send_to': 'AW-16989497335/DTjqCJ6wo-oaEPfPnKU_',
-				'event_callback': callback
-			});
-			return false;
-		}
-	</script>
-
-
 	<!-- End Google Tag Manager -->
 
 	<link rel="preload" as="image" href="/logo.webp" />
@@ -256,7 +221,11 @@
 			<div>
 				<h2 class="font-semibold mb-2">Contact Us</h2>
 				<p>📍 Serving the entire United Kingdom</p>
-				<p>📞 <a href="tel:03307890914" class="text-accent hover:underline">0330 789 0914</a></p>
+				<p>📞 <a href="tel:03307890914" class="text-accent hover:underline"
+					on:click={(e) => {
+					e.preventDefault();
+					gtag_report_conversion('tel:03307890914');
+				}}>0330 789 0914</a></p>
 				<p>✉️ support@locksmithoncall.co.uk</p>
 			</div>
 			<div>
@@ -271,7 +240,10 @@
 	<a
 		href="tel:03307890914"
 		class="md:hidden fixed bottom-4 left-4 right-4 z-50 bg-accent text-white text-center font-semibold py-3 rounded shadow-lg hover:opacity-90 transition"
-	>
+		on:click={(e) => {
+		e.preventDefault();
+		gtag_report_conversion('tel:03307890914');
+	}}>
 		📞 Call Now: 0330 789 0914
 	</a>
 
