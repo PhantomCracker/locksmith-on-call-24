@@ -8,8 +8,8 @@
     import FAQ from '$lib/components/homepage/FAQ.svelte';
     import EmergencyCTA from '$lib/components/homepage/EmergencyCTA.svelte';
 
-    const city = 'Preston';
-    const areas: string[] = ['Preston', 'Leyland', 'Chorley', 'Southport', 'more'];
+    const city = 'Oxford';
+    const areas: string[] = ['Oxford', 'Kidlington', 'Chipping Norton', 'Thame', 'Wallingford', 'Didcot', 'Wantage', 'Abingdon', 'Banbury', 'Woodstock', 'Bicester', 'Witney', 'Chinnor', 'Watlington', 'more'];
 </script>
 
 <svelte:head>
@@ -29,8 +29,8 @@
 			"address": {
 				"@type": "PostalAddress",
 				"addressLocality": city,
-				"addressRegion": "Lancashire",
-				"postalCode": "PR",
+				"addressRegion": "Oxfordshire",
+				"postalCode": "OX",
 				"addressCountry": "GB"
 			},
 			"openingHoursSpecification": [{

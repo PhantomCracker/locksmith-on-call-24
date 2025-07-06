@@ -41,7 +41,7 @@
 				"opens": "00:00",
 				"closes": "23:59"
 			}],
-			"description": `24/7 emergency locksmith in ${city}. Fast, reliable and local. No call-out fee, serving homes and offices across Blackpool since 2008.`,
+			"description": `24/7 emergency locksmith in ${city}. Fast, reliable and local. No call-out fee, serving homes and offices across ${city} since 2008.`,
 			"areaServed": {
 				"@type": "Place",
 				"name": city

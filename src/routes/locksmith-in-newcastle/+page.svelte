@@ -8,8 +8,8 @@
     import FAQ from '$lib/components/homepage/FAQ.svelte';
     import EmergencyCTA from '$lib/components/homepage/EmergencyCTA.svelte';
 
-    const city = 'Preston';
-    const areas: string[] = ['Preston', 'Leyland', 'Chorley', 'Southport', 'more'];
+    const city = 'Newcastle';
+    const areas: string[] = ['Newcastle', 'Gateshead', 'Blaydon', 'Bedlington', 'Cramlington', 'Blyth', 'Whitley Bay', 'Wallsend', 'North Shields', 'Hebburn', 'Jarrow', 'South Shields', 'Boldon Colliery', 'East Boldon', 'Washington', 'Rowlands Gill', 'Ryton', 'Wylam', 'Prudhoe', 'Stocksfield', 'Riding Mill', 'Corbridge', 'Hexham', 'more'];
 </script>
 
 <svelte:head>
@@ -29,8 +29,8 @@
 			"address": {
 				"@type": "PostalAddress",
 				"addressLocality": city,
-				"addressRegion": "Lancashire",
-				"postalCode": "PR",
+				"addressRegion": "Tyne and Wear",
+				"postalCode": "NE",
 				"addressCountry": "GB"
 			},
 			"openingHoursSpecification": [{

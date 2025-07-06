@@ -3,7 +3,14 @@
         'Blackpool',
         'Gloucester',
         'Preston',
-        'Swindon'
+        'Swindon',
+        'Norwich',
+        'Stoke-on-Trent',
+        'Colchester',
+        'Ipswich',
+        'Newcastle',
+        'Oxford',
+        'Leicester'
     ];
 </script>
 
