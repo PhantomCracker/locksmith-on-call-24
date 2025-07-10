@@ -36,6 +36,7 @@
 	},
 	"dependencies": {
 		"@fontsource/inter": "^5.2.6",
+		"@microsoft/clarity": "^1.0.0",
 		"vite-plugin-beasties": "^0.3.4"
 	}
 }

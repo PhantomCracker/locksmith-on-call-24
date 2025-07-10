@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.css';
+	import Clarity from '$lib/components/homepage/Clarity.svelte';
 
 	let mobileNavOpen = false;
 </script>
@@ -262,3 +263,4 @@
 	</a>
 
 </div>
+<Clarity />
