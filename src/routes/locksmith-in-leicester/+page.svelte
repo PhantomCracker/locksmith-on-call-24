@@ -9,7 +9,7 @@
     import EmergencyCTA from '$lib/components/homepage/EmergencyCTA.svelte';
 
     const city = 'Leicester';
-    const areas: string[] = ['Leicester', 'Hinckley', 'Loughborough', 'Melton Mowbray', 'Oakham', 'Market Harborough', 'Lutterworth', 'Wigston', 'Ashby-de-la-Zouch', 'Coalville', 'Ibstock', 'Markfield', 'more'];
+    const areas: string[] = ['Leicester', 'Hinckley', 'Loughborough', 'Melton Mowbray', 'Oakham', 'Market Harborough', 'Lutterworth', 'Wigston', 'Ashby-de-la-Zouch', 'Coalville', 'Ibstock', 'Markfield'];
 </script>
 
 <svelte:head>

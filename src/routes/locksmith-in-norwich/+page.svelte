@@ -9,7 +9,7 @@
     import EmergencyCTA from '$lib/components/homepage/EmergencyCTA.svelte';
 
     const city = 'Norwich';
-    const areas: string[] = ['Norwich', 'Attleborough', 'Wymondham', 'Dereham', 'Fakenham', 'Walsingham', 'Wells-next-the-Sea', 'Melton Constable', 'Holt', 'Sheringham', 'North Walsham', 'Great Yarmouth', 'Cromer', 'Lowestoft', 'Beccles', 'Bungay', 'more'];
+    const areas: string[] = ['Norwich', 'Attleborough', 'Wymondham', 'Dereham', 'Fakenham', 'Walsingham', 'Wells-next-the-Sea', 'Melton Constable', 'Holt', 'Sheringham', 'North Walsham', 'Great Yarmouth', 'Cromer', 'Lowestoft', 'Beccles', 'Bungay'];
 </script>
 
 <svelte:head>

@@ -21,7 +21,7 @@
 	<!-- Content -->
 	<div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
 		<h1 class="text-4xl md:text-5xl font-bold mb-4">24/7 Emergency Locksmith In {safeCity}</h1>
-		<p class="text-lg md:text-xl mb-4">{formatLocationCoverage(city, areas)}</p>
+		<p class="text-lg md:text-xl mb-4">{@html formatLocationCoverage(city, areas)}</p>
 		<a
 			href="tel:03307890914"
 			class="inline-block bg-accent text-white font-semibold px-6 py-3 rounded hover:opacity-90 transition"

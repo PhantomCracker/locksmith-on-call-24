@@ -9,7 +9,7 @@
     import EmergencyCTA from '$lib/components/homepage/EmergencyCTA.svelte';
 
     const city = 'Colchester';
-    const areas: string[] = ['Colchester', 'Bures', 'Halstead', 'Sudbury', 'Manningtree', 'Harwich', 'Frinton-on-Sea', 'Walton-on-the-Naze', 'Clacton-on-Sea', 'more'];
+    const areas: string[] = ['Colchester', 'Bures', 'Halstead', 'Sudbury', 'Manningtree', 'Harwich', 'Frinton-on-Sea', 'Walton-on-the-Naze', 'Clacton-on-Sea'];
 </script>
 
 <svelte:head>

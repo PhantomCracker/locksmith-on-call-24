@@ -9,7 +9,7 @@
     import EmergencyCTA from '$lib/components/homepage/EmergencyCTA.svelte';
 
     const city = 'Newcastle';
-    const areas: string[] = ['Newcastle', 'Gateshead', 'Blaydon', 'Bedlington', 'Cramlington', 'Blyth', 'Whitley Bay', 'Wallsend', 'North Shields', 'Hebburn', 'Jarrow', 'South Shields', 'Boldon Colliery', 'East Boldon', 'Washington', 'Rowlands Gill', 'Ryton', 'Wylam', 'Prudhoe', 'Stocksfield', 'Riding Mill', 'Corbridge', 'Hexham', 'more'];
+    const areas: string[] = ['Newcastle', 'Gateshead', 'Blaydon', 'Bedlington', 'Cramlington', 'Blyth', 'Whitley Bay', 'Wallsend', 'North Shields', 'Hebburn', 'Jarrow', 'South Shields', 'Boldon Colliery', 'East Boldon', 'Washington', 'Rowlands Gill', 'Ryton', 'Wylam', 'Prudhoe', 'Stocksfield', 'Riding Mill', 'Corbridge', 'Hexham'];
 </script>
 
 <svelte:head>

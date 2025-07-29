@@ -9,33 +9,19 @@
 
 <section class="bg-white text-text-base py-4">
 	<div class="max-w-6xl mx-auto px-4 text-center space-y-8">
-
-        <h2 class="text-2xl md:text-3xl font-bold text-primary">
+		<h2 class="text-2xl md:text-3xl font-bold text-primary">
 			Local and Trusted Locksmiths Since 2008
 		</h2>
-        <div class="relative overflow-hidden">
-			<!-- Carousel container -->
-			<div class="flex animate-scroll gap-8 items-center">
-				{#each [...items, ...items] as item, i}
-					<div class="flex-shrink-0 flex items-center gap-2 min-w-max text-text-base px-6 py-4 border border-gray-200 rounded shadow bg-white">
-						{#if item.img}
-							<img src={item.img} alt={item.text} class="h-8 w-auto" />
-						{/if}
-						<span class="whitespace-nowrap text-sm md:text-base">{item.text}</span>
-					</div>
-				{/each}
-			</div>
+
+		<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+			{#each items as item}
+				<div class="flex flex-col items-center gap-2 px-4 py-4 border border-gray-200 rounded shadow bg-white">
+					{#if item.img}
+						<img src={item.img} alt={item.text} class="h-8 w-auto" />
+					{/if}
+					<span class="text-sm md:text-base text-center">{item.text}</span>
+				</div>
+			{/each}
 		</div>
 	</div>
 </section>
-
-<style>
-	@keyframes scroll {
-		0% { transform: translateX(0%); }
-		100% { transform: translateX(-50%); }
-	}
-	.animate-scroll {
-		width: max-content;
-		animation: scroll 40s linear infinite;
-	}
-</style>

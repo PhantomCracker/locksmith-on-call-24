@@ -9,7 +9,7 @@
     import EmergencyCTA from '$lib/components/homepage/EmergencyCTA.svelte';
 
     const city = 'Ipswich';
-    const areas: string[] = ['Ipswich', 'Felixstowe', 'Woodbridge', 'Stowmarket', 'Aldeburgh', 'Leiston', 'Saxmundham', 'Southwold', 'Halesworth', 'Harleston', 'Diss', 'Eye', 'Thetford', 'Brandon', 'Bury St Edmunds', 'more'];
+    const areas: string[] = ['Ipswich', 'Felixstowe', 'Woodbridge', 'Stowmarket', 'Aldeburgh', 'Leiston', 'Saxmundham', 'Southwold', 'Halesworth', 'Harleston', 'Diss', 'Eye', 'Thetford', 'Brandon', 'Bury St Edmunds'];
 </script>
 
 <svelte:head>

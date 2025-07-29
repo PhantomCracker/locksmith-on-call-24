@@ -240,7 +240,7 @@
 
 	<a
 		href="tel:03307890914"
-		class="md:hidden fixed bottom-4 left-4 right-4 z-50 bg-accent text-white text-center font-semibold py-3 rounded shadow-lg hover:opacity-90 transition"
+		class="md:hidden fixed bottom-4 left-4 right-4 z-50 bg-accent text-white text-center font-semibold py-5 rounded shadow-lg hover:opacity-90 transition"
 		on:click={(e) => {
 		e.preventDefault();
 		gtag_report_conversion('tel:03307890914');
@@ -252,7 +252,7 @@
 		href="https://wa.me/447760595941?text=Hello%2C%20I%20need%20help%20with%20a%20lockout%20situation."
 		target="_blank"
 		rel="noopener"
-		class="fixed bottom-20 right-4 md:bottom-6 md:right-6 z-50 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg flex items-center gap-2 text-sm md:text-base"
+		class="fixed bottom-20 right-4 md:bottom-6 md:right-6 z-50 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg flex items-center gap-2 text-sm md:text-base mb-3"
 		aria-label="Chat with us on WhatsApp"
 	>
 		<!-- WhatsApp icon (inline SVG or emoji) -->

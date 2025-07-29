@@ -9,7 +9,7 @@
     import EmergencyCTA from '$lib/components/homepage/EmergencyCTA.svelte';
 
     const city = 'Preston';
-    const areas: string[] = ['Preston', 'Leyland', 'Chorley', 'Southport', 'more'];
+    const areas: string[] = ['Preston', 'Leyland', 'Chorley', 'Southport'];
 </script>
 
 <svelte:head>

@@ -2,17 +2,16 @@ export function formatLocationCoverage(city: string | undefined, areas: string[]
     const safeCity = city?.trim() || 'your area';
 
     if (!areas || areas.length === 0) {
-        return `Local Locksmith in ${safeCity} and surrounding areas.`;
+        return `Based in ${safeCity} and surrounding areas. <br><br> Wherever you are in or around ${safeCity}, we aim to reach you in <strong style="color: #FDD835;">under 30 minutes — fast and reliable, your emergency is our priority.<strong>`;
     }
 
     if (areas.length === 1) {
-        return `Local Locksmith in ${safeCity}, covering ${areas[0]} and surrounding areas.`;
+        return `Based in ${safeCity}, we cover ${areas[0]} and surrounding areas.<br><br> Wherever you are in or around ${safeCity}, we aim to reach you in <strong style="color: #FDD835;">under 30 minutes — fast and reliable, your emergency is our priority.<strong>`;
     }
 
-    const last = areas[areas.length - 1];
-    const rest = areas.slice(0, -1).join(', ');
+    const formattedAreas = areas.join(', ');
 
-    return `Local Locksmith in ${safeCity}, covering multiple areas like ${rest} and ${last}.`;
+    return `Based in ${safeCity}, we cover ${formattedAreas}.<br><br> Wherever you are in or around ${safeCity}, we aim to reach you in <strong style="color: #FDD835;">under 30 minutes — fast and reliable, your emergency is our priority.<strong>`;
 }
 
 export function formatFAQCoverage(city: string | undefined, areas: string[]): string {
