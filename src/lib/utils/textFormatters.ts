@@ -2,16 +2,16 @@ export function formatLocationCoverage(city: string | undefined, areas: string[]
     const safeCity = city?.trim() || 'your area';
 
     if (!areas || areas.length === 0) {
-        return `Based in ${safeCity} and surrounding areas. <br><br> Wherever you are in or around ${safeCity}, we aim to reach you in <strong style="color: #FDD835;">under 30 minutes — fast and reliable, your emergency is our priority.<strong>`;
+        return `Based in ${safeCity} and surrounding areas. <br><br> Wherever you are in or around ${safeCity}, we aim to reach you in <strong style="color: #FDD835;">under 30 minutes — fast and reliable, your emergency is our priority.</strong>`;
     }
 
     if (areas.length === 1) {
-        return `Based in ${safeCity}, we cover ${areas[0]} and surrounding areas.<br><br> Wherever you are in or around ${safeCity}, we aim to reach you in <strong style="color: #FDD835;">under 30 minutes — fast and reliable, your emergency is our priority.<strong>`;
+        return `Based in ${safeCity}, we cover ${areas[0]} and surrounding areas.<br><br> Wherever you are in or around ${safeCity}, we aim to reach you in <strong style="color: #FDD835;">under 30 minutes — fast and reliable, your emergency is our priority.</strong>`;
     }
 
     const formattedAreas = areas.join(', ');
 
-    return `Based in ${safeCity}, we cover ${formattedAreas}.<br><br> Wherever you are in or around ${safeCity}, we aim to reach you in <strong style="color: #FDD835;">under 30 minutes — fast and reliable, your emergency is our priority.<strong>`;
+    return `Based in ${safeCity}, we cover ${formattedAreas}.<br><br> Wherever you are in or around ${safeCity}, we aim to reach you in <strong style="color: #FDD835;">under 30 minutes — fast and reliable, your emergency is our priority.</strong>`;
 }
 
 export function formatFAQCoverage(city: string | undefined, areas: string[]): string {
