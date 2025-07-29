@@ -249,7 +249,7 @@
 	</a>
 
 	<a
-		href="https://wa.me/447760595941?text=Hello%2C%20I%20need%20help%20with%20a%20lockout%20situation."
+		href="https://wa.me/447760595941?text=Hello%2C%20I%20need%20an%20emergency%20locksmith%20service."
 		target="_blank"
 		rel="noopener"
 		class="fixed bottom-20 right-4 md:bottom-6 md:right-6 z-50 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg flex items-center gap-2 text-sm md:text-base mb-3"
