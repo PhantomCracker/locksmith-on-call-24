@@ -203,7 +203,6 @@
 				<a href="/services" class="hover:text-primary">Services</a>
 				<a href="/about" class="hover:text-primary">About</a>
 				<a href="/areas-covered" class="hover:text-primary">Covered areas</a>
-				<a href="/contact" class="hover:text-primary">Contact</a>
 				<a href="tel:03307890914" class="bg-accent text-white px-4 py-2 rounded text-center hover:opacity-90">
 					📞 Call Now
 				</a>
