@@ -1,6 +1,7 @@
 <script lang="ts">
 	import '../app.css';
 	import Clarity from '$lib/components/homepage/Clarity.svelte';
+	import PopupModal from '$lib/components/homepage/PopupModal.svelte';
 
 	let mobileNavOpen = false;
 </script>
@@ -199,10 +200,10 @@
 		<!-- Mobile Nav -->
 		{#if mobileNavOpen}
 			<nav class="md:hidden bg-background-white border-t border-gray-200 px-4 py-3 flex flex-col gap-3">
-				<a href="/" class="hover:text-primary">Home</a>
-				<a href="/services" class="hover:text-primary">Services</a>
-				<a href="/about" class="hover:text-primary">About</a>
-				<a href="/areas-covered" class="hover:text-primary">Covered areas</a>
+				<a href="/" class="hover:text-primary" on:click={() => mobileNavOpen = !mobileNavOpen}>Home</a>
+				<a href="/services" class="hover:text-primary" on:click={() => mobileNavOpen = !mobileNavOpen}>Services</a>
+				<a href="/about" class="hover:text-primary" on:click={() => mobileNavOpen = !mobileNavOpen}>About</a>
+				<a href="/areas-covered" class="hover:text-primary" on:click={() => mobileNavOpen = !mobileNavOpen}>Covered areas</a>
 				<a href="tel:03307890914" class="bg-accent text-white px-4 py-2 rounded text-center hover:opacity-90">
 					📞 Call Now
 				</a>
@@ -248,7 +249,7 @@
 	</a>
 
 	<a
-		href="https://wa.me/447760595941?text=Hello%2C%20I%20need%20an%20emergency%20locksmith%20service."
+		href="https://wa.me/447760595941?text=Hello%2C%20I%20need%20urgent%20locksmith%20assistance.%20Can%20you%20help%20me%20right%20now%3F"
 		target="_blank"
 		rel="noopener"
 		class="fixed bottom-20 right-4 md:bottom-6 md:right-6 z-50 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg flex items-center gap-2 text-sm md:text-base mb-3"
@@ -263,3 +264,4 @@
 
 </div>
 <Clarity />
+<PopupModal />
