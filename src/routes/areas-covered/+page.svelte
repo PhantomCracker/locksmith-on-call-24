@@ -10,7 +10,32 @@
         'Ipswich',
         'Newcastle',
         'Oxford',
-        'Leicester'
+        'Leicester',
+        'Birmingham',
+        'Cambridge',
+        'Leeds',
+        'Wakefield',
+        'Huddersfield',
+        'Bradford',
+        'Halifax',
+        'Liverpool',
+        'Warrington',
+        'Wigan',
+        'Chester',
+        'Sheffield',
+        'Doncaster',
+        'Bristol',
+        'Milton-Keynes',
+        'Northampton',
+        'Romford',
+        'Ilford',
+        'Chelmsford',
+        'Southend-on-Sea',
+        'Crewe',
+        'Stevenage',
+        'Hemel-Hempstead',
+        'St-Albans',
+        'Watford'
     ];
 </script>
 
