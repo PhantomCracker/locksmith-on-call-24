@@ -1,7 +1,6 @@
 <script lang="ts">
 	import '../app.css';
 	import Clarity from '$lib/components/homepage/Clarity.svelte';
-	import PopupModal from '$lib/components/homepage/PopupModal.svelte';
 
 	let mobileNavOpen = false;
 </script>
@@ -264,4 +263,3 @@
 
 </div>
 <Clarity />
-<PopupModal />
