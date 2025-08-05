@@ -35,7 +35,8 @@
         'Stevenage',
         'Hemel-Hempstead',
         'St-Albans',
-        'Watford'
+        'Watford',
+        'Reading'
     ];
 </script>
 
